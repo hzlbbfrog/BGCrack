@@ -6,7 +6,7 @@ This repository is the official PyTorch implementation of the **B**oundary **G**
 Title: **Infrastructure Crack Segmentation: Boundary Guidance Method and Benchmark Dataset**
 
 ### 🍎 Dataset:
-The Steelcrack dataset is available at [Civil-dataset](https://github.com/hzlbbfrog/Civil-dataset).
+- The Steelcrack dataset is available at [Civil-dataset](https://github.com/hzlbbfrog/Civil-dataset).
 
 # 🛴 Updates
 - **`2023/06/15`**: The preprint of our paper has been submitted to arXiv. Link → [Arxiv Paper](https://arxiv.org/abs/2306.09196).
