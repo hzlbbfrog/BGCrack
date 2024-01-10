@@ -1,3 +1,8 @@
+<div align="center">
+<!--   <img src="./figures/Logo.png"> -->
+  <img src="./figures/Logo.svg" width="100%">
+</div>
+
 # BGCrack
 This repository is the official PyTorch implementation of the **B**oundary **G**uidance **Crack** Segmentation Model **(BGCrack)**.
 
