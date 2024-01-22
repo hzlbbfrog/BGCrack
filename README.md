@@ -13,12 +13,12 @@ Title: **Infrastructure Crack Segmentation: Boundary Guidance Method and Benchma
 ### 🍎 Dataset:
 - The Steelcrack dataset is available at [Civil-dataset](https://github.com/hzlbbfrog/Civil-dataset).
 
-# 🛴 Updates
+## 🛴 Updates
 - **`2023/06/15`**: The preprint of our paper has been submitted to arXiv. Link → [Arxiv Paper](https://arxiv.org/abs/2306.09196).
 - **`2023/05/10`**: **CSNSS** is renamed to **BGCrack**.
 - **`2022/10/17`**: This repository is built up! Its previous name is [**CSNSS** (Crack Segmentation Network for Steel Structures)](https://github.com/hzlbbfrog/CSNSS).
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
 ### 1. Requirements
 ~~~
@@ -43,6 +43,6 @@ Or, you can directly "Download ZIP".
 
 ### 5. Test
 
-# 🎯 Method
+## 🎯 Method
 
-# Acknowledgements
+## Acknowledgements
