@@ -1,0 +1,7 @@
+einops
+numpy
+opencv-python
+Pillow
+ptflops
+torch
+torchvision
