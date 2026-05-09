@@ -113,5 +113,5 @@ keywords = {Crack inspection, Deep learning, Boundary guidance method, Benchmark
 ```
 
 ## 🌹 Acknowledgements
-This repo benefits from [SCRN](https://github.com/wuzhe71/SCRN) and [FcaNet](https://github.com/cfzd/FcaNet).
+This repo benefits from [SCRN](https://github.com/wuzhe71/SCRN), [FcaNet](https://github.com/cfzd/FcaNet), and [MobileViT](https://github.com/chinhsuanwu/mobilevit-pytorch).
 Thanks for their wonderful works!
