@@ -93,4 +93,25 @@ BGCrack (Boundary Guidance Crack Segmentation Model) is designed for crack segme
 | **DconnNet**               | 74.73          | 83.40           | 28.38           | 24.79       |
 | **BGCrack V1**             | 77.16          | 85.33           | 2.32            | 15.76       |
 
-## Acknowledgements
+## 🥰 Cite BGCrack!
+If you have any problems, please do not hesitate to contact us!
+You are very welcome to cite our paper!  
+The BibTeX entry of the paper is as follows:
+```BibTeX
+@article{BGCrack,
+title = {Crack segmentation on steel structures using boundary guidance model},
+journal = {Automation in Construction},
+volume = {162},
+pages = {105354},
+year = {2024},
+issn = {0926-5805},
+doi = {https://doi.org/10.1016/j.autcon.2024.105354},
+url = {https://www.sciencedirect.com/science/article/pii/S0926580524000906},
+author = {Zhili He and Wang Chen and Jian Zhang and Yu-Hsing Wang},
+keywords = {Crack inspection, Deep learning, Boundary guidance method, Benchmark dataset}
+}
+```
+
+## 🌹 Acknowledgements
+This repo benefits from [SCRN](https://github.com/wuzhe71/SCRN) and [FcaNet](https://github.com/cfzd/FcaNet).
+Thanks for their wonderful works!
