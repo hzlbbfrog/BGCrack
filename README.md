@@ -29,24 +29,52 @@ Recommended versions are
     * python = 3.8.15
     * pytorch = 1.12.1
     * CUDA 11.6.2 and CUDNN 8.6.0  
-Other requirements can be found in Requirements.txt.
+Other requirements can be found in requirements.txt.
 ~~~
 
 ### 2. Installation
 ```bash
 git clone https://github.com/hzlbbfrog/BGCrack
 cd BGCrack
-pip install -r Requirements.txt
+pip install -r requirements.txt
 ```
 Or, you can directly "Download ZIP".
 
 ### 3. Prepare the dataset
+Download the dataset from [Civil-dataset](https://github.com/hzlbbfrog/Civil-dataset) and organize the folder structure as follows:
+```
+BGCrack/
+├── Dataset/
+│   ├── Steelcrack/
+│   │   ├── Train/
+│   │   │   ├── images/
+│   │   │   ├── masks/
+│   │   │   └── edges/
+│   │   ├── Validation/
+│   │   │   ├── images/
+│   │   │   ├── masks/
+│   │   │   └── edges/
+│   │   ├── Test/
+│   │   │   ├── images/
+│   │   │   ├── masks/
+│   │   │   └── edges/
+```
 
 ### 4. Training and validation
+To train the BGCrack model, run the following command:
+```bash
+python train_BGCrack_2024.py --dataset=steel_cracks_with_edge --modelname=BGCrack --batchsize=9 --epoch=70 --lr=0.006
+```
+Logs and model checkpoints will be created in `./Result_log` and `./Checkpoints/` respectively.
 
 ### 5. Test
+To evaluate the model, run the testing script (replace `<YOUR_TEST_EPOCH>` with the specific epoch you want to evaluate):
+```bash
+python test_BGCrack_2024.py --dataset=steel_cracks_with_edge --modelname=BGCrack --test_epoch=<YOUR_TEST_EPOCH>
+```
 
 ## 🎯 Method
+BGCrack (Boundary Guidance Crack Segmentation Model) is designed for crack segmentation on steel structures. It features modules for boundary guidance to explicitly incorporate crack edge information, leading to precise crack delineation. The model integrates deep feature extraction mechanisms like MobileViT and attention gates.
 
 ## :medal_military: Results on Steelcrack dataset
 | **Method**                 | **mi IoU (%)** | **mi Dice (%)** | **#Param. (M)** |**MACs (G)** |
