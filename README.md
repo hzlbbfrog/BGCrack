@@ -76,6 +76,8 @@ python test_BGCrack_2024.py --dataset=steel_cracks_with_edge --modelname=BGCrack
 ## 🎯 Method
 BGCrack (Boundary Guidance Crack Segmentation Model) is designed for crack segmentation on steel structures. It features modules for boundary guidance to explicitly incorporate crack edge information, leading to precise crack delineation. The model integrates deep feature extraction mechanisms like MobileViT and attention gates.
 
+  <img src="./figures/method.svg" width="100%">
+
 ## :medal_military: Results on Steelcrack dataset
 | **Method**                 | **mi IoU (%)** | **mi Dice (%)** | **#Param. (M)** |**MACs (G)** |
 |:---------------------------|:--------------:|:---------------:|:---------------:|:-----------:|
